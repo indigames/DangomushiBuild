@@ -6,10 +6,14 @@
     <type fullname="Dangomushi.Core.Stage.MapObject" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Mushi.Direction.DirectionArrow" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Mushi.Direction.DirectionController" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.Mushi.Events.MushiEventSystem" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.Mushi.Events.RegistPairingTeleportEventChannelSO" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.Mushi.Events.TeleportEventListener" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Mushi.Mushi" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.StageManager" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.StageObjectController" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.StagePlayerInput" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.TeleportHole" preserve="all" />
     <type fullname="Dangomushi.Core.UI.Stage.UIStageButtonEntry" preserve="all" />
     <type fullname="Dangomushi.Core.UI.Stage.UIStageComplete" preserve="all" />
     <type fullname="Dangomushi.Core.UI.Stage.UIStageSelect" preserve="all" />

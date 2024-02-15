@@ -6,6 +6,8 @@
     <type fullname="Dangomushi.Core.Stage.Events.TouchMapObjectEventChannelSO" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.MapCell" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.MapObject" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.Mushi.DebugCrawlSpeed" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.Mushi.DebugTurnOverSpeed" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Mushi.Direction.DirectionArrow" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Mushi.Direction.DirectionController" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Mushi.Events.MushiEventSystem" preserve="all" />
@@ -29,9 +31,13 @@
     <type fullname="Dangomushi.MapObjectDatabase" preserve="all" />
     <type fullname="Dangomushi.StageData" preserve="all" />
     <type fullname="Dangomushi.StageGenerator" preserve="all" />
+    <type fullname="Dangomushi.UI.Common.UIAutoShowAndHide" preserve="all" />
+    <type fullname="Dangomushi.UI.Debug.Stage.UIDebugButton" preserve="all" />
+    <type fullname="Dangomushi.UI.Debug.Stage.UIDebugUpdateIntProperty" preserve="all" />
     <type fullname="Dangomushi.EMapObjectType" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="IndiGames.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="IndiGames.Core.Events.ScriptableObjects.IntEventChannelSO" preserve="all" />
     <type fullname="IndiGames.Core.Events.ScriptableObjects.VoidEventChannelSO" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -96,7 +102,9 @@
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -111,12 +119,16 @@
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.InputField" preserve="all" />
     <type fullname="UnityEngine.UI.Outline" preserve="all" />
     <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />

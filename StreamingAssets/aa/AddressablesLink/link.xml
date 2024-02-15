@@ -1,5 +1,7 @@
 <linker>
   <assembly fullname="Dangomushi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Dangomushi.Core.Stage.Cell.UpdateTouchableCell" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.Events.ListMapCellEventChannelSO" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Events.TouchMapCellEventChannelSO" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Events.TouchMapObjectEventChannelSO" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.MapCell" preserve="all" />
@@ -10,8 +12,11 @@
     <type fullname="Dangomushi.Core.Stage.Mushi.Events.RegistPairingTeleportEventChannelSO" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Mushi.Events.TeleportEventListener" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.Mushi.Mushi" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.Object.AddWallAction" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.Object.RemoveWallAction" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.Object.UpdateTouchableWall" preserve="all" />
+    <type fullname="Dangomushi.Core.Stage.StageActionController" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.StageManager" preserve="all" />
-    <type fullname="Dangomushi.Core.Stage.StageObjectController" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.StagePlayerInput" preserve="all" />
     <type fullname="Dangomushi.Core.Stage.TeleportHole" preserve="all" />
     <type fullname="Dangomushi.Core.UI.Stage.UIStageButtonEntry" preserve="all" />
